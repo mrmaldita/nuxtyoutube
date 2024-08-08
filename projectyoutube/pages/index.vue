@@ -8,7 +8,7 @@
           <Tab />
         </div>
         <div class="overflow-y-auto overflow-hidden">
-        <div class="grid grid-cols-5 w-full gap-3 px-2 mt-10">
+        <div class="grid grid-cols-5 w-full gap-3 px-2 mt-14">
           <div v-for="(j,i) in 10" :key="i">
             <Video />
           </div>
