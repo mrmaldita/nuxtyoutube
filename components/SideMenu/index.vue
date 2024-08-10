@@ -1,5 +1,5 @@
 <template>
-  <div class="w-[250px] h-screen mt-4 px-2 fixed pt-16 overflow-hidden">
+  <div class="w-[250px] h-screen mt-5 px-2 fixed pt-16 overflow-hidden">
     <div class="h-full overflow-y-auto custom-scrollbar">
       <ul class="border-b border-gray-300 pb-3 mb-1">
         <li class="px-2 py-1 flex bg-gray-300 rounded-lg capitalize gap-3 items-center">
