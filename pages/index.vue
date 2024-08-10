@@ -4,7 +4,7 @@
     <div class="flex gap-4 w-full overflow-y-auto">
       <SideMenu />
       <div class="ml-64 mt-16 pt-3 ">
-        <div class="w-full fixed">
+        <div class="w-full fixed top-15 z-10">
           <Tab />
         </div>
         <div class="overflow-y-auto overflow-hidden">
@@ -18,7 +18,7 @@
           <span class="ml-2 font-semibold text-xl">Shorts</span>
         </div>
         <div class="grid grid-cols-7 w-full gap-3 px-2 py-2">
-          <div v-for="(j,i) in 10" :key="i">
+          <div v-for="(j,i) in 14" :key="i">
             <Shorts />
           </div>
         </div>
@@ -30,3 +30,4 @@
 
 <style scoped>
 </style>
+

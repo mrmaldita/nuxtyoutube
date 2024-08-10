@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full h-5">
+    <div class="w-full h-8 sticky top-0 bg-white z-10">
         <div>
             <ul class="flex space-x-5 list-none p-0 m-0 font-medium text-nowrap">
             
@@ -24,3 +24,4 @@
         </div>
     </div>
 </template>
+

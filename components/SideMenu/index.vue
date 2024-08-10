@@ -1,26 +1,26 @@
 <template>
-    <div class="w-[250px] h-screen mt-4 px-2 fixed pt-16 overflow-hidden"> 
-        <div class="h-full overflow-y-auto">
-        <ul class="border-b border-gray-300 pb-3 mb-1">
+  <div class="w-[250px] h-screen mt-4 px-2 fixed pt-16 overflow-hidden">
+    <div class="h-full overflow-y-auto custom-scrollbar">
+      <ul class="border-b border-gray-300 pb-3 mb-1">
         <li class="px-2 py-1 flex bg-gray-300 rounded-lg capitalize gap-3 items-center">
-            <span class="text-xs py-1">
-                <i class="fa fa-home text-black text-sm"></i>
-            </span>
-            <span class="flex-grow text-base ml-1 mt-1.5 mb-1.5 font-medium">Home</span>
+          <span class="text-xs py-1">
+            <i class="fa fa-home text-black text-sm"></i>
+          </span>
+          <span class="flex-grow text-base ml-1 mt-1.5 mb-1.5 font-medium">Home</span>
         </li>
         <li class="px-2 py-1 flex hover:bg-gray-400 rounded-lg capitalize gap-3 items-center">
-            <span class="-ml-1">
-                <img src="~assets/images/shorts.png" class="h-6 w-6 ">
-            </span>
-            <span class="text-base mb-1">Shorts</span>
+          <span class="-ml-1">
+            <img src="~assets/images/shorts.png" class="h-6 w-6">
+          </span>
+          <span class="text-base mb-1">Shorts</span>
         </li>
         <li class="px-2 py-1 flex hover:bg-gray-400 rounded-lg capitalize gap-3">
-            <span class="text-xs py-1">
-                <img src="~assets/images/subs.png" class="w-4 h-5  ">
-            </span>
-            <span class="text-base ml-1 mt-0.5">Subscriptions</span>
+          <span class="text-xs py-1">
+            <img src="~assets/images/subs.png" class="w-4 h-5">
+          </span>
+          <span class="text-base ml-1 mt-0.5">Subscriptions</span>
         </li>
-        </ul>
+      </ul>
         <div class="mt-1">
             <ul class="border-b border-gray-300 pb-2 items-center">
                 <li class="flex px-2 py-2 hover:bg-gray-400 rounded-lg capitalize gap-1 block">
@@ -191,4 +191,3 @@
     </div>
     </div>
 </template>
-
