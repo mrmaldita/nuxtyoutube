@@ -11,7 +11,16 @@ export default defineNuxtConfig({
         {
           rel: "stylesheet",
           href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css",
-        }
+        },
+        {
+          rel: "stylesheet",
+          href: "/css/flickity.min.css",
+        },
+      ],
+      script: [
+        {
+          src: "/js/flickity.pkgd.min.js"
+        },
       ]
     },
   },
